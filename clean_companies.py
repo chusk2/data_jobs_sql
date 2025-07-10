@@ -15,9 +15,10 @@ def normalize_company_name(name):
     # Remove legal designations and common words
     legal_words = [
         'inc', 'incorporated', 'corporation', 'corp', 'llc', 'limited', 
-        'ltd', 'co', 'company', 'group', 'holdings', 'international', 
-        'intl', 'technologies', 'technology', 'solutions'
-    ]
+        'ltd', 'co', 'intl',]
+        #company', 'group', 'holdings', 'international', 
+        #'intl', 'technologies', 'technology', 'solutions'
+    
 
     # Remove these words
     for word in legal_words:
